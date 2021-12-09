@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#image-box{
+    height: 500px;
+    width: 300px;
+    /* background-color:red; */
+    box-shadow: 3px 3px 5px black,-1px -1px 3px black;
+    overflow: hidden;
+    position: relative;
+    border-radius:5px;
+}
+
+#images{
+    background-color:green;
+    display: flex;
+    transform: translateX(0px);
+    transition: transform 0.5s ease-in-out;
+}
+
+img{
+     height: 450px;
+    width: 300px;
+    object-fit: cover;
+}
+
+button{
+    height:25px;
+    width:100px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    position:absolute;
+    bottom: 10px;
+    background-color:#f8bbd0;
+    box-shadow: 1px 1px 3px black;
+}
+
+#prev{
+    left: 10px;
+}
+
+#next{
+    right: 10px;
+}
+
