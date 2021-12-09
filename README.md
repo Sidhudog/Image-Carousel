@@ -1,3 +1,3 @@
 # Image-Carousel
 
-Live At : https://github.com/Sidhudog/Image-Carousel.git
+Live At : https://sidhudog.github.io/Image-Carousel/
